@@ -6,10 +6,10 @@ import 'package:flutter_template/presentation/common/base/ui_feedback.dart';
 
 /// [B]: Bloc 类型
 /// [E]: Effect 副作用类型
-abstract class BaseWidget<B extends BaseBloc<dynamic, dynamic, E>, E>
+abstract class BaseView<B extends BaseBloc<dynamic, dynamic, E>, E>
     extends StatelessWidget
     with UiFeedbackMixin {
-  const BaseWidget({super.key});
+  const BaseView({super.key});
 
   Widget buildWidget(BuildContext context, B bloc);
 

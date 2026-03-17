@@ -12,7 +12,7 @@
 | 数据持久 | [shared_preferences](https://pub.dev/packages/shared_preferences)                                                      |
 | 架构约束 | [meta](https://pub.dev/packages/meta)                                                                                  |
 | 路由管理 | [go_router](https://pub.dev/packages/go_router)                                                                        |
-| 网络请求 | [dio](https://pub.dev/packages/dio)                                                                        |
+| 网络请求 | [dio](https://pub.dev/packages/dio)                                                                                    |
 | 国际化   | [flutter_localizations](https://api.flutter.dev/flutter/flutter_localizations/), [intl](https://pub.dev/packages/intl) |
 
 ## 路由管理
@@ -30,7 +30,7 @@
 ## 基类封装
 对通用逻辑的抽象
 
-- **BaseWidget**  
+- **BaseView**  
   封装了常用的功能
 
 - **BaseBloc**  

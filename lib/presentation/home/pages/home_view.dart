@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutter_template/core/extensions/build_context.dart';
-import 'package:flutter_template/presentation/common/base/base_widget.dart';
-import 'package:flutter_template/presentation/common/logic/locale/locale_cubit.dart';
-import 'package:flutter_template/presentation/common/logic/theme/theme_cubit.dart';
+import 'package:flutter_template/presentation/common/extensions/build_context.dart';
+import 'package:flutter_template/presentation/common/base/base_view.dart';
+import 'package:flutter_template/presentation/common/locale/locale_cubit.dart';
+import 'package:flutter_template/presentation/common/theme/theme_cubit.dart';
 import 'package:flutter_template/presentation/home/bloc/home_bloc.dart';
 import 'package:flutter_template/presentation/home/widgets/locale_selector.dart';
 import 'package:flutter_template/presentation/home/widgets/theme_mode_selector.dart';
 
-class HomeView extends BaseWidget<HomeBloc, HomeEffect> {
+class HomeView extends BaseView<HomeBloc, HomeEffect> {
   const HomeView({super.key});
 
   @override
